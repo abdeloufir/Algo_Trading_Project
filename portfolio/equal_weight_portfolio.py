@@ -18,7 +18,7 @@ weights_equal = {
 }
 
 # Calculate the weighted metrics for the equal-weighted portfolio
-equal_weighted_return = sum(df_performance['Total Return'][strategy] * weights_equal[strategy] for strategy in weights_equal)
+equal_weighted_return = sum(df_performance["Total Return"][strategy] * weights_equal[strategy] for strategy in weights_equal)
 equal_weighted_sharpe = sum(df_performance['Sharpe Ratio'][strategy] * weights_equal[strategy] for strategy in weights_equal)
 equal_weighted_drawdown = sum(df_performance['Maximum Drawdown'][strategy] * weights_equal[strategy] for strategy in weights_equal)
 
