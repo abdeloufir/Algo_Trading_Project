@@ -69,7 +69,7 @@ print(df_performance)
 import matplotlib.pyplot as plt
 
 # Plot Total Returns for each strategy
-df_performance['Total Return'].plot(kind='bar', title='Total Returns Comparison')
+df_performance["Total Return"].plot(kind='bar', title='Total Returns Comparison')
 plt.ylabel('Total Return ($)')
 plt.show()
 
