@@ -1,7 +1,7 @@
 import backtrader as bt
 
 class MeanReversionStrategy(bt.Strategy):
-    params = (('lookback_period', 50), ('entry_threshold', 2.5))  # Use the best combination
+    params = (("lookback_period", 50), ('entry_threshold', 2.5))  # Use the best combination
 
     def __init__(self):
         # Calculate the mean (SMA) and standard deviation over the lookback period
