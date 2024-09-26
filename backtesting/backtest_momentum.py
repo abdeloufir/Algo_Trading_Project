@@ -9,7 +9,7 @@ from strategies.backtrader_momentum import MomentumStrategy
 
 # Load historical data
 data_path = './data/AAPL_data.csv'
-data = pd.read_csv(data_path, index_col='Date', parse_dates=True)
+data = pd.read_csv(data_path, index_col="Date", parse_dates=True)
 
 # Prepare the data for Backtrader
 datafeed = bt.feeds.PandasData(dataname=data)
