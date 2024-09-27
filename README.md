@@ -11,28 +11,6 @@ This project implements several algorithmic trading strategies using Python and 
 
 Each strategy is backtested using historical data, optimized, and combined into portfolios for comparison. The goal of the project is to identify trading strategies and portfolio combinations that offer the best risk-adjusted returns while managing risk effectively through drawdown minimization and position sizing.
 
-## Folder Structure
-
-algo_trading_project/
-├── data/                                 # Data files (CSV files)
-├── strategies/                           # Strategy implementations
-│   ├── moving_average_crossover.py       # Moving Average Crossover strategy
-│   ├── mean_reversion.py                 # Mean Reversion strategy
-│   ├── momentum.py                       # Momentum strategy
-│   ├── trend_following.py                # Trend Following strategy
-├── backtesting/                          # Backtest scripts
-│   ├── backtest_moving_average.py        # Backtest for Moving Average Crossover
-│   ├── backtest_mean_reversion.py        # Backtest for Mean Reversion
-│   ├── backtest_momentum.py              # Backtest for Momentum
-│   ├── backtest_trend_following.py       # Backtest for Trend Following
-├── portfolio/                            # Portfolio scripts
-│   ├── equal_weighted_portfolio.py       # Equal-weighted portfolio
-│   ├── performance_weighted_portfolio.py # Performance-weighted portfolio
-├── report.md                             # Final report in Markdown
-├── README.md                             # Project documentation
-└── requirements.txt                      # Python dependencies
-
-
 ## How to Run
 
 ### 1. Setup the Environment
@@ -89,11 +67,11 @@ You can find a comprehensive summary of the project, including the methodology, 
 
 This project was developed using the following technologies and libraries:
 
-Python 3.x
-Backtrader: An open-source Python library for backtesting trading strategies.
-Pandas: For data manipulation and analysis.
-Matplotlib: For data visualization and plotting graphs.
-YahooFinanceData (Backtrader Data Feeds): Used to load historical price data from Yahoo Finance.
+- **Python 3.x** 
+- **Backtrader**: An open-source Python library for backtesting trading strategies.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For data visualization and plotting graphs.
+- **YahooFinanceData (Backtrader Data Feeds)**: Used to load historical price data from Yahoo Finance.
 
 
 ## Future Improvements
