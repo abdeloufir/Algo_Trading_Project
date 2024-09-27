@@ -55,9 +55,18 @@ python backtesting/backtest_moving_average.py
 
 Other strategies follow a similar format:
 
-Mean Reversion: python backtesting/backtest_mean_reversion.py
-Momentum: python backtesting/backtest_momentum.py
-Trend Following: python backtesting/backtest_trend_following.py
+Mean Reversion: 
+```bash
+python backtesting/backtest_mean_reversion.py
+```
+Momentum: 
+```bash
+python backtesting/backtest_momentum.py
+```
+Trend Following: 
+```bash
+python backtesting/backtest_trend_following.py
+```
 
 ### 3. Portfolio Construction
 After running individual strategies, you can run the portfolio scripts to see the performance of combined strategies.
@@ -75,7 +84,9 @@ python portfolio/performance_weighted_portfolio.py
 ### 4. View the Final Report
 You can find a comprehensive summary of the project, including the methodology, results, and conclusions, in the report.md file.
 
-Technologies Used
+
+## Technologies Used
+
 This project was developed using the following technologies and libraries:
 
 Python 3.x
@@ -83,7 +94,9 @@ Backtrader: An open-source Python library for backtesting trading strategies.
 Pandas: For data manipulation and analysis.
 Matplotlib: For data visualization and plotting graphs.
 YahooFinanceData (Backtrader Data Feeds): Used to load historical price data from Yahoo Finance.
-Future Improvements
+
+
+## Future Improvements
 The following improvements can be made to further enhance the project:
 
 Walk-Forward Optimization: Implement walk-forward optimization to avoid overfitting the strategy to historical data.
