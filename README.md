@@ -77,6 +77,6 @@ This project was developed using the following technologies and libraries:
 ## Future Improvements
 The following improvements can be made to further enhance the project:
 
-Walk-Forward Optimization: Implement walk-forward optimization to avoid overfitting the strategy to historical data.
-Live Trading: Integrate the project with a broker API such as Alpaca or Interactive Brokers for live trading or paper trading.
-Dynamic Portfolio Rebalancing: Implement dynamic portfolio rebalancing to adjust strategy allocations over time based on changing market conditions.
+- **Walk-Forward Optimization**: Implement walk-forward optimization to avoid overfitting the strategy to historical data.
+- **Live Trading**: Integrate the project with a broker API such as Alpaca or Interactive Brokers for live trading or paper trading.
+- **Dynamic Portfolio Rebalancing**: Implement dynamic portfolio rebalancing to adjust strategy allocations over time based on changing market conditions.
